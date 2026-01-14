@@ -23,7 +23,8 @@ public:
     int max() const;                 // maximum value
     double average() const;          // average of all values
     void push_front(int value);     // insert value to the front of the list
-    void push_back(int value);      // insert value to the back of the list
+    void push_back(int value);
+    void clear();      // insert value to the back of the list
 
     IntList& operator=(const IntList& source); //overloaded  (NO CHANGE)
 
